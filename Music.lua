@@ -1,4 +1,4 @@
-return {
+{
     ["Regular"] = {
         ["Outrun the Nightmare"] = {"rbxassetid://45819151"},
         ["Raining Tacos"] = {"rbxassetid://142376088"},
