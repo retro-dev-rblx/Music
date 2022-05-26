@@ -1,0 +1,54 @@
+name: Audio Suggestion
+description: Using this form you will be suggesting a song/sound effect to be added to RetroStudio.
+title: "[Audio]: "
+labels: ["lobby music"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this song request!
+  - type: checkboxes
+    attributes:
+      label: Check if this audio is already added to RetroStudio.
+      description: See in-game or in the Music.json file to see if the audio has already been added to RetroStudio
+      options:
+      - label: "The audio is not already in game."
+        required: true
+  - type: checkboxes
+    attributes:
+      label: Is this for the main-menu playlist?
+      description: Is this is a song; and would you like it to be played in the lobby?
+      options:
+      - label: Add to main-menu playlist.
+        required: true
+  - type: checkboxes
+    attributes:
+      label: Is this song from an old Roblox era or a sound effect?
+      description: This doesn't necessarily apply to sound effects, but definitely should apply to music.
+      options:
+      - label: This song is from old Roblox or is a sound effect.
+        required: true   
+  - type: input
+    id: roblox-link
+    attributes:
+      label: A link to the audio on Roblox
+      description: A link  to the audio on Roblox.
+      placeholder: https://roblox.com/catalog/audio?ID=nikita-petko-gaming
+    validations:
+      required: true
+  - type: input
+    id: audio-link
+    attributes:
+      label: A link to the audio file to download.
+      description: A link that leads to the audio file to be downloaded.
+      placeholder: https://retro-dev.net/static/audio/AyrayBeatbox.mp3
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes: 
+      label: Notes
+      description: Any extra notes you may need to add, leave blank if none.
+      placeholder: This is my favourite song everest. -Wagness Gaming 2013
+    validations:
+      required: false
