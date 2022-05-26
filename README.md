@@ -12,3 +12,10 @@
 
 ### Shows all available music/songs/sounds available used in the Main Menu
 This project allows you to see what sound is uploaded to the Retro Dev group in order to be able to use it in your <a href="https://www.roblox.com/games/5846386835/RetroStudio">RetroStudio</a> game.
+
+
+
+
+## How do I suggest music here?
+
+You're able to suggest music here by creating a new issue, there is a form template for issues and they're pretty self-explanatory. If you need help just ask somebody in the <a href="discord.gg/retro">Retro Dev</a> discord.
