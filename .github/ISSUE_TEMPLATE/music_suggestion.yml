@@ -1,7 +1,7 @@
 name: Audio Suggestion
 description: Using this form you will be suggesting a song/sound effect to be added to RetroStudio.
 title: "[Audio]: "
-labels: ["lobby music"]
+labels: []
 assignees: []
 body:
   - type: markdown
