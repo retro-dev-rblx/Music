@@ -20,7 +20,7 @@ body:
       description: Is this is a song; and would you like it to be played in the lobby?
       options:
       - label: Add to main-menu playlist.
-        required: true
+        required: false
   - type: checkboxes
     attributes:
       label: Is this song from an old Roblox era or a sound effect?
