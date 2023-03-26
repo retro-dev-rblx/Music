@@ -178,5 +178,23 @@
     "Cave Ambience": [
       "rbxassetid://12909752881"
     ],
+    "Sparta Remix": [
+      "rbxassetid://12909812780"
+    ],
+    "Vote Failure": [
+      "rbxassetid://12909855052"
+    ],
+    "Vote No": [
+      "rbxassetid://12909856411"
+    ],
+    "Vote Yes": [
+      "rbxassetid://12909858157"
+    ],
+    "Vote Success": [
+      "rbxassetid://12909857240"
+    ],
+    "Vote Started": [
+      "rbxassetid://12909861156"
+    ]
   }
 }
